@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Outfit:wght@400;600;700&display=swap');
+
+/* vendors */
+@import "vendors/normalize.css";
+
+/* Utils */
+@import "utils/variables.css";
+
+/* Base */
+@import "base/main.css";
+@import "base/media.css";
+@import "base/icons.css";
+
+/* Layout */
+
+
+/* Components */

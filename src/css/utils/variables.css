@@ -1,0 +1,26 @@
+:root {
+    /* Color styles */
+    --white: #FFFFFF;
+    --grey: #F3F3F3;
+    --black: #333333;
+    --pink: #FF9ED1;
+    --green: #0BF40B;
+    --yellow: #FFE000;
+    --blue: #41AFFF;
+
+    /* Text-size styles */
+    /* Base size: body (24px) */
+    --h1: 2.5rem;
+    --h2: 2rem;
+    --h3: 1.5rem;
+    --h4: 1.25rem;
+    --body: 1rem;
+    --button: 0.83rem;
+    --menu: 0.67rem;
+
+    
+
+    /* Font-family style */
+    --font-nunito: 'Nunito', sans-serif;
+    --font-outfit: 'Outfit', sans-serif;
+}
