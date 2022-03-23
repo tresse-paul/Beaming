@@ -12,6 +12,8 @@
 @import "base/icons.css";
 
 /* Layout */
-@import "layout/header.css"
+@import "layout/header.css";
 
 /* Components */
+@import "components/hero.css";
+@import "components/block1.css";
