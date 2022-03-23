@@ -1,0 +1,25 @@
+.block1__container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.card__objectifs {
+    display: flex;
+    flex-direction: row;
+}
+
+.objectifs__text {
+    width: 50%;
+}
+
+.objectifs__image {
+    display: flex;
+    margin: auto;
+}
+
+.image__serpentin {
+    position: absolute;
+    margin-left: -12.5em;
+    width: 100%;
+    z-index: -1;
+}
