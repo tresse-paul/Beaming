@@ -1,18 +1,36 @@
 .block1__container {
     display: flex;
     flex-flow: column nowrap;
+    margin-bottom: 600px;
 }
 
+/* 1er block de texte + image */
 .card__objectifs {
     display: flex;
     flex-direction: row;
 }
 
-.objectifs__text {
-    width: 50%;
+.objectifs__text--trophe {
+    width: 40%;
 }
 
-.objectifs__image {
+.objectifs__image--trophe {
+    display: flex;
+    margin: auto;
+}
+
+/* 2eme block de texte + image */
+.card__accompagnement {
+    display: flex;
+    flex-direction: row;
+    margin-top: 135px;
+}
+
+.objectifs__text--fusee {
+    width: 41%;
+}
+
+.objectifs__image--fusee {
     display: flex;
     margin: auto;
 }
@@ -22,4 +40,5 @@
     margin-left: -12.5em;
     width: 100%;
     z-index: -1;
+    top: 1170px;
 }

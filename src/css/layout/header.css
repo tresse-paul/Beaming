@@ -41,7 +41,7 @@
 .header__list {
     display: flex;
     font-family: var(--font-outfit);
-    font-size: var(--body);
+    font-size: var(--menu);
     font-weight: bold;
     text-transform: uppercase;
     list-style: none;

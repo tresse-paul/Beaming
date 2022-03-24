@@ -10,13 +10,14 @@
 
     /* Text-size styles */
     /* Base size: body (24px) */
-    --h1: 2.5rem;
-    --h2: 2rem;
-    --h3: 1.5rem;
-    --h4: 1.25rem;
-    --body: 1rem;
-    --button: 0.83rem;
-    --menu: 0.67rem;
+    --h1: 3.75rem;
+    --h2: 3rem;
+    --h3: 2.25rem;
+    --menu: 1rem;
+    --body: 1.5rem;
+    --body-strong: 1.5rem;
+    --button: 1.25rem;
+    --h4: 1.88rem;
 
     
 
