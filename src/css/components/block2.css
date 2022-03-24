@@ -1,0 +1,39 @@
+.block2__container {
+    background-color: var(--grey);
+    margin-left: -12.5em;
+    margin-right: -12.5em;
+    margin-bottom: 50px;
+    padding: 5em 0em 15em 0em;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+    margin-left: 205px;
+}
+
+.card__temps {
+    width: 400px;
+    margin-left: 105px;
+}
+
+.card__methode {
+    width: 500px;
+}
+
+.methode__text {
+    width: 400px;
+}
+
+.image__temps {
+    position: absolute;
+    z-index: 0;
+    margin: -80px 0px 0px -150px;
+}
+
+.image__puzzle {
+    position: absolute;
+    z-index: 0;
+    margin: -80px 0px 0px 0px;
+}
