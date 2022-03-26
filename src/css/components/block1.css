@@ -1,7 +1,7 @@
 .block1__container {
     display: flex;
     flex-flow: column nowrap;
-    margin-bottom: 600px;
+    margin-bottom: 530px;
 }
 
 /* 1er block de texte + image */
