@@ -1,7 +1,7 @@
 .block1__container {
     display: flex;
     flex-flow: column nowrap;
-    margin-bottom: 530px;
+    margin-bottom: 230px;
 }
 
 /* 1er block de texte + image */
@@ -40,5 +40,5 @@
     margin-left: -12.5em;
     width: 100%;
     z-index: -1;
-    top: 1170px;
+    top: 870px;
 }
