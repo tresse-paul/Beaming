@@ -1,0 +1,26 @@
+.block4__container {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 300px;
+    margin-right: 150px;
+}
+
+.card__id {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 135px;
+}
+
+.nom {
+    font-size: var(--h3);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.prenom {
+    font-size: var(--h3);
+    font-weight: 400;
+    text-transform: none;
+}
