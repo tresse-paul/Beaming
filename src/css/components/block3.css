@@ -94,21 +94,33 @@
 }
 
 .achat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: var(--font-outfit);
     font-size: var(--button);
+    font-weight: bold;
+    text-transform: uppercase;
     width: 180px;
     height: 40px;
     border: solid 2px;
+    border-radius: 20px;
     background-color: transparent;
 }
 
 .achat__color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: var(--font-outfit);
     font-size: var(--button);
+    font-weight: bold;
+    text-transform: uppercase;
     color: var(--white);
     width: 180px;
     height: 40px;;
     border: 0px;
+    border-radius: 20px;
     background: linear-gradient(180deg, #4176FF 0%, #4198FF 50%, #41AFFF 100%);
 }
 

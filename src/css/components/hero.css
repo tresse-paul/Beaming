@@ -20,11 +20,15 @@
     display: flex;
     font-family: var(--font-nunito);
     font-size: var(--button);
+    text-transform: uppercase;
     padding: 0.938em 3.125em 0.938em 3.125em;
     justify-content: center;
+    width: 450px;
     margin: auto;
     margin-top: 50px;
     color: var(--white);
     background: linear-gradient(180deg, #4176FF 0%, #4198FF 50%, #41AFFF 100%);
     border: none;
+    border-radius: 30px;
+    filter: drop-shadow(0px 5px 15px rgba(0,0,0, 0.25));
 }
