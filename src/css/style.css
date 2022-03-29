@@ -14,6 +14,7 @@
 /* Layout */
 @import "layout/header.css";
 @import "layout/footer.css";
+@import "layout/form.css";
 
 /* Components */
 @import "components/hero.css";
@@ -21,3 +22,4 @@
 @import "components/block2.css";
 @import "components/block3.css";
 @import "components/block4.css";
+@import "components/block5.css";

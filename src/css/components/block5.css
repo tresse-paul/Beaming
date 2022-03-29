@@ -1,0 +1,29 @@
+.title__margin  {
+    margin-bottom: 10px;
+}
+
+.block5__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.block5__text {
+    font-size: var(--h4);
+    margin: 0px;
+}
+
+.block5__inscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-outfit);
+    font-size: var(--h4);
+    width: 350px;
+    height: 60px;
+    border-radius: 30px;
+    color: var(--white);
+    background: linear-gradient(180deg, #4176FF 0%, #4198FF 50%, #41AFFF 100%);
+}

@@ -53,6 +53,7 @@
 
 .footer__mentions {
     display: flex;
+    gap: 30px;
     justify-content: center;
     margin-bottom: 30px;
 }
