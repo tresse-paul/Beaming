@@ -19,6 +19,28 @@
     text-transform: uppercase;
 }
 
+.nom__sacha {
+    font-size: var(--h3);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.sacha__describe {
+    margin-left: 10px;
+}
+
+.nom__paul {
+    font-size: var(--h3);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.paul__describe {
+    margin-left: 20px;
+}
+
 .prenom {
     font-size: var(--h3);
     font-weight: 400;
