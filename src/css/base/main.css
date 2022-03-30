@@ -48,6 +48,7 @@ p {
     font-size: var(--body);
     color: var(--black);
     font-weight: normal;
+    margin: 0;
 }
 
 button {

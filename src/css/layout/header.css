@@ -22,6 +22,13 @@
     text-decoration: none;
 }
 
+.header__icon {
+    transition: transform .7s ease-in-out;
+}
+.header__icon:hover {
+    transform: rotate(360deg);
+}
+
 .header__title {
     color: var(--black);
     font-family: var(--font-nunito);
