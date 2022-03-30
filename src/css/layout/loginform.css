@@ -96,6 +96,7 @@
 }
 
 .log__forgot {
+    font-family: var(--font-outfit);
     font-size: var(--menu);
     margin: 0px;
     font-weight: bold;
