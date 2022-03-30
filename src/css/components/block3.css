@@ -7,6 +7,17 @@
     margin-bottom: 100px;
 }
 
+.block3__h2::before {
+    content: "";
+    position: absolute;
+    width: 283px;
+    height: 20px;
+    background: var(--pink);
+    z-index: -1;
+    left: 35.5%;
+    margin-top: 33px;
+}
+
 .base__container {
     display: flex;
     flex-direction: column;
