@@ -1,0 +1,77 @@
+.hero__image--inscription {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}
+
+.block__inscription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    background-color: rgba(243,243,243,0.25);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .25);
+    border-radius: 10px;
+    width: 600px;
+    padding: 60px 80px 60px 80px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.inscription__title {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.form__inscirption {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.log {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.log__input {
+    width: 440px;
+    height: 50px;
+    border: solid 1px var(--black);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: var(--font-outfit);
+    font-size: var(--menu);
+}
+
+.inscription__champ {
+    font-size: var(--menu);
+    margin-top: 0px;
+}
+
+.inscription__button {
+    font-family: var(--font-outfit);
+    width: 440px;
+    height: 50px;
+    border: transparent;
+    border-radius: 5px;
+    color: var(--white);
+    background: linear-gradient(180deg, #4176FF 0%, #4198FF 50%, #41AFFF 100%);
+    margin-bottom: 50px;
+}
+
+.inscription__link {
+    font-size: var(--button);
+    margin: 0;
+}
+
+.inscription__link--bold {
+    font-weight: bold;
+}
+
+.inscription__captcha {
+    font-size: var(--menu);
+}
