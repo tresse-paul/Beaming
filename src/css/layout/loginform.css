@@ -63,6 +63,18 @@
     margin-bottom: 50px;
 }
 
+.inscription__button--margin {
+    font-family: var(--font-outfit);
+    width: 440px;
+    height: 50px;
+    border: transparent;
+    border-radius: 5px;
+    color: var(--white);
+    background: linear-gradient(180deg, #4176FF 0%, #4198FF 50%, #41AFFF 100%);
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
 .inscription__link {
     font-size: var(--button);
     margin: 0;
@@ -74,4 +86,22 @@
 
 .inscription__captcha {
     font-size: var(--menu);
+}
+
+.log__forgotpassword {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log__forgot {
+    font-size: var(--menu);
+    margin: 0px;
+    font-weight: bold;
+}
+
+.remember {
+    font-family: var(--font-outfit);
+    margin-left: 5px;
 }
