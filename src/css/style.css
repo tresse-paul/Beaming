@@ -19,9 +19,9 @@
 
 /* Components */
 @import "components/hero.css";
-@import "components/block1.css";
-@import "components/block2.css";
-@import "components/block3.css";
-@import "components/block4.css";
-@import "components/block5.css";
+@import "components/epanouissez.css";
+@import "components/objectifs.css";
+@import "components/shop.css";
+@import "components/equipe.css";
+@import "components/bottom.css";
 @import "components/legal.css";
