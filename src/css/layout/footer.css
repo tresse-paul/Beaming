@@ -29,10 +29,11 @@
 .footer__title {
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
     font-size: var(--body);
     font-weight: 600;
     text-transform: uppercase;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 40px 0px;
     width: 100%;
     height: auto;
 }
@@ -41,19 +42,26 @@
     display: flex;
     flex-direction: row;
     align-self: flex-start;
-    justify-content: start;
+    justify-content: space-between;
     padding: 0;
     list-style: none;
+    width: 150px;
+}
+
+.footer__list a {
+    color: var(--blue);
 }
 
 .footer__item {
     display: flex;
-    margin: 0px
+    justify-content: flex-start;
+    margin: 0px;
+    transform: scale(2);
 }
 
 .footer__mentions {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     justify-content: center;
     margin-bottom: 30px;
 }

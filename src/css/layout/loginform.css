@@ -60,7 +60,7 @@
     border-radius: 5px;
     color: var(--white);
     background: linear-gradient(180deg, #4176FF 0%, #4198FF 50%, #41AFFF 100%);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .inscription__button--margin {
@@ -77,11 +77,20 @@
 
 .inscription__link {
     font-size: var(--button);
-    margin: 0;
+    margin: 0px 0px 15px 0px;
 }
 
 .inscription__link--bold {
+    font-family: var(--font-outfit);
+    font-size: var(--button);
     font-weight: bold;
+}
+
+.inscription__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 440px;
 }
 
 .inscription__captcha {
